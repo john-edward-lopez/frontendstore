@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" />
+      </a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace navegacion__enlace--activo" href="index.html"
+        >Tienda</a
+      >
+      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+      <h1>react js</h1>
+
+      <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto" />
+
+        <div class="camisa__contenido">
+          electrónicos, quedando esencialmente igual al original. Fue
+          popularizado en los 60s con la creación de las hojas "Letraset", las
+          cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+          software de autoedición, como por ejemplo Aldus PageMaker, el cual
+          incluye versiones de Lorem Ipsum.
+
+          <form class="formulario">
+            <select class="formulario__campo" formulario__campo>
+              <option disabled value="">--Selecionar Talla--</option>
+              <option value="">Chica</option>
+              <option value="">Mediana</option>
+              <option value="">Grande</option>
+            </select>
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="Agregar al carrito"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__texto">
+        Front end store -Todoos los derechos reservados 2022
+      </p>
+    </footer>
+  </body>
+</html>
